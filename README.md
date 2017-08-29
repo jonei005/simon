@@ -5,6 +5,7 @@ Overview
 --------
 This is a recreation of the game Simon on a breadboard with an ATmega1284 microcontroller, running C code written in Atmel Studio 7. Simon is a memory game that tests your ability to remember sequences by asking you watch and repeat sequences of increasing length. Our implementation of Simon stops after you correctly input a sequence of length 9.
 
+
 Setup
 -----
 - ATmega1284 microcontroller
@@ -14,6 +15,7 @@ Setup
   - 1 start button (connected to PORT A7)
   - 4 game buttons, each corresponding to its adjacent LED (connected to PORT B0...B3)
 - Speaker (connected to PORT B6)
+
 
 How To Play
 -----------
@@ -28,8 +30,8 @@ After implementing the hardware and programming the microcontroller, you may use
 6. This process repeats until you input a sequence of length 9, when the game tells you that you have won. 
 7. If your input is incorrect at any time during the game, the LCD will tell you that you have lost.
 8. After a win or loss, you may press Start to go back to the Welcome Screen and play again. 
-
 ```
+
 
 Authors
 -------
