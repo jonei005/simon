@@ -21,11 +21,14 @@ After implementing the hardware and programming the microcontroller, you may use
 ```
 1. Turn on the power source of the breadboard.
 2. When the LCD screen displays "Welcome to Simon", press the Start Button to start the game.
-3. After a 2 second delay, a randomly chosen LED will blink. You must press the button that corresponds to that LED. 
-4. The LCD screen will display your current score, which is the length of the last sequence you inputted correctly.
-5. If you pressed the correct button, Simon will add another light to the sequence, lighting up the same first LED, then a second random LED. You must input that sequence in order.
-6. This process repeats until you input a sequence of length 9, after which the game tells you that you have won. In this case, you may press Start to go back to the Welcome Screen and play again. 
-7. If your input is incorrect at any time during the game, the LCD will tell you that you have lost, and you may press Start to return to the Welcome Screen and try again.
+3. The LCD screen will display your current score, which is the length of the last sequence you inputted correctly.
+4. After a 2 second delay, a randomly chosen LED will blink. You must press the button that corresponds to that LED. 
+5. If you pressed the correct button, Simon will add another light to the sequence.
+   - The sequence builds from the previous sequence. You must input the new sequence in order.
+6. This process repeats until you input a sequence of length 9, after which the game tells you that you have won. 
+7. If your input is incorrect at any time during the game, the LCD will tell you that you have lost.
+8. After a win or loss, you may press Start to go back to the Welcome Screen and play again. 
+
 ```
 
 Authors
