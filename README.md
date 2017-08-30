@@ -32,6 +32,7 @@ After implementing the hardware and programming the microcontroller, you may use
 8. After a win or loss, you may press Start to go back to the Welcome Screen and play again. 
 ```
 
+Demo video: https://youtu.be/zdUH_CReJn4
 
 Authors
 -------
