@@ -34,6 +34,13 @@ After implementing the hardware and programming the microcontroller, you may use
 
 Demo video: https://youtu.be/zdUH_CReJn4
 
+Relevant Files
+--------------
+- Main C code: `simon/simon/main.c`
+- Hex file to program ATmega1284 directly: `simon/simon/debug/simon.hex`
+- 'Includes' folder, containing relevant functions for LCD controls: `simon/simon/includes`
+- Atmel Studio 7 Project File: `simon/simon.atsln`
+
 Authors
 -------
 Jeremy O'Neill
