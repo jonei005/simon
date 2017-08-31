@@ -10,10 +10,10 @@ Setup
 -----
 - ATmega1284 microcontroller
 - LCD display (connected to PORT D6...D7 and PORT C0...C7)
-- 4 LEDs (connected to PORT A0...A3)
+- 4 LEDs (connected to PORT B0...B3)
 - 5 buttons
   - 1 start button (connected to PORT A7)
-  - 4 game buttons, each corresponding to its adjacent LED (connected to PORT B0...B3)
+  - 4 game buttons, each corresponding to its adjacent LED (connected to PORT A0...A3)
 - Speaker (connected to PORT B6)
 
 
